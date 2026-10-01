@@ -6,26 +6,26 @@ const CONFIG = {
   business: {
     name: "Vértice Motors",
     whatsapp: "",
-    phoneDisplay: "Contato demonstrativo",
+    phoneDisplay: "Simular contato pelo WhatsApp",
     instagram: "",
     instagramHandle: "",
     address: "",
     hours: ""
   },
-  storageKey: "vertice-motors-demo-v1"
+  storageKey: "vertice-motors-demo-v2"
 };
 
 const DEMO_MOTOS = [
-  { id: "honda-cg-160-titan", brand: "Honda", model: "CG 160 Titan", version: "ABS", year: 2025, km: 4800, cc: 160, price: 21990, image: "./assets/motos/moto-urbana-grafite.png", description: "Urbana ágil e econômica, com acabamento moderno e conjunto equilibrado para o uso diário.", sold: false },
-  { id: "honda-bros-160", brand: "Honda", model: "NXR 160 Bros", version: "ESDD", year: 2024, km: 9200, cc: 160, price: 24790, image: "./assets/motos/moto-adventure-vermelha.png", description: "Suspensão elevada, posição confortável e versatilidade para cidade e trajetos irregulares.", sold: false },
-  { id: "honda-cb-300f", brand: "Honda", model: "CB 300F Twister", version: "ABS", year: 2024, km: 7100, cc: 300, price: 28900, image: "./assets/motos/moto-naked-azul.png", description: "Naked de visual esportivo, freios ABS e desempenho seguro para rotina e estrada.", sold: false },
-  { id: "honda-xre-300", brand: "Honda", model: "XRE 300 Sahara", version: "Adventure", year: 2025, km: 3100, cc: 300, price: 33990, image: "./assets/motos/moto-adventure-vermelha.png", description: "Projeto aventureiro com ergonomia elevada e recursos pensados para viagens e deslocamentos urbanos.", sold: false },
-  { id: "honda-biz-125", brand: "Honda", model: "Biz 125", version: "EX", year: 2024, km: 5600, cc: 125, price: 16990, image: "./assets/motos/scooter-branca.png", description: "Praticidade urbana, baixo consumo e condução simples para todos os dias.", sold: false },
-  { id: "honda-pcx-160", brand: "Honda", model: "PCX 160", version: "DLX ABS", year: 2025, km: 2400, cc: 160, price: 22900, image: "./assets/motos/scooter-branca.png", description: "Scooter premium com conforto, espaço e tecnologia para mobilidade urbana.", sold: false },
-  { id: "yamaha-fazer-fz25", brand: "Yamaha", model: "Fazer FZ25", version: "ABS", year: 2023, km: 12800, cc: 250, price: 23490, image: "./assets/motos/moto-urbana-grafite.png", description: "Conjunto confiável, boa autonomia e posição de pilotagem confortável para uso misto.", sold: false },
-  { id: "yamaha-mt-03", brand: "Yamaha", model: "MT-03", version: "ABS", year: 2024, km: 6800, cc: 321, price: 32900, image: "./assets/motos/moto-naked-azul.png", description: "Naked compacta de resposta esportiva, iluminação em LED e presença marcante.", sold: false },
-  { id: "royal-enfield-meteor", brand: "Royal Enfield", model: "Meteor 350", version: "Supernova", year: 2023, km: 10500, cc: 349, price: 24900, image: "./assets/motos/moto-cruiser-grafite.png", description: "Cruiser confortável com estilo clássico, condução suave e excelente ergonomia.", sold: false },
-  { id: "kawasaki-z500", brand: "Kawasaki", model: "Z500", version: "SE ABS", year: 2025, km: 1800, cc: 451, price: 43900, image: "./assets/motos/moto-premium-bronze.png", description: "Naked premium com entrega progressiva, componentes refinados e visual tecnológico.", sold: false }
+  { id: "honda-cg-160-titan", brand: "Honda", model: "CG 160 Titan", version: "ABS", year: 2025, km: 4800, cc: 160, price: 21990, image: "./assets/motos/moto-urbana-grafite.webp", description: "Urbana ágil e econômica, com acabamento moderno e conjunto equilibrado para o uso diário.", sold: false },
+  { id: "honda-bros-160", brand: "Honda", model: "NXR 160 Bros", version: "ESDD", year: 2024, km: 9200, cc: 160, price: 24790, image: "./assets/motos/moto-adventure-vermelha.webp", description: "Suspensão elevada, posição confortável e versatilidade para cidade e trajetos irregulares.", sold: false },
+  { id: "honda-cb-300f", brand: "Honda", model: "CB 300F Twister", version: "ABS", year: 2024, km: 7100, cc: 300, price: 28900, image: "./assets/motos/moto-naked-azul.webp", description: "Naked de visual esportivo, freios ABS e desempenho seguro para rotina e estrada.", sold: false },
+  { id: "honda-xre-300", brand: "Honda", model: "XRE 300 Sahara", version: "Adventure", year: 2025, km: 3100, cc: 300, price: 33990, image: "./assets/motos/moto-adventure-areia.webp", description: "Projeto aventureiro com ergonomia elevada e recursos pensados para viagens e deslocamentos urbanos.", sold: false },
+  { id: "honda-biz-125", brand: "Honda", model: "Biz 125", version: "EX", year: 2024, km: 5600, cc: 125, price: 16990, image: "./assets/motos/scooter-branca.webp", description: "Praticidade urbana, baixo consumo e condução simples para todos os dias.", sold: false },
+  { id: "honda-pcx-160", brand: "Honda", model: "PCX 160", version: "DLX ABS", year: 2025, km: 2400, cc: 160, price: 22900, image: "./assets/motos/scooter-azul.webp", description: "Scooter premium com conforto, espaço e tecnologia para mobilidade urbana.", sold: false },
+  { id: "yamaha-fazer-fz25", brand: "Yamaha", model: "Fazer FZ25", version: "ABS", year: 2023, km: 12800, cc: 250, price: 23490, image: "./assets/motos/moto-urbana-prata.webp", description: "Conjunto confiável, boa autonomia e posição de pilotagem confortável para uso misto.", sold: false },
+  { id: "yamaha-mt-03", brand: "Yamaha", model: "MT-03", version: "ABS", year: 2024, km: 6800, cc: 321, price: 32900, image: "./assets/motos/moto-naked-vermelha.webp", description: "Naked compacta de resposta esportiva, iluminação em LED e presença marcante.", sold: false },
+  { id: "royal-enfield-meteor", brand: "Royal Enfield", model: "Meteor 350", version: "Supernova", year: 2023, km: 10500, cc: 349, price: 24900, image: "./assets/motos/moto-cruiser-grafite.webp", description: "Cruiser confortável com estilo clássico, condução suave e excelente ergonomia.", sold: false },
+  { id: "kawasaki-z500", brand: "Kawasaki", model: "Z500", version: "SE ABS", year: 2025, km: 1800, cc: 451, price: 43900, image: "./assets/motos/moto-premium-bronze.webp", description: "Naked premium com entrega progressiva, componentes refinados e visual tecnológico.", sold: false }
 ].map(function (moto) { return Object.assign({}, moto, { images: [moto.image] }); });
 
 const main = document.querySelector("main");
@@ -98,28 +98,29 @@ function showToast(message) {
 
 toastClose.addEventListener("click", clearToast);
 
-function whatsappUrl(moto) {
-  const phone = String(CONFIG.business.whatsapp || "").replace(/\D/g, "");
-  const message = moto
-    ? "Olá, Vértice! Estou testando a demo Vértice Motors e simulei interesse na " + moto.brand + " " + moto.model + "."
-    : "Olá, Vértice! Conheci a demonstração Vértice Motors e gostaria de saber mais sobre um catálogo digital para minha revenda.";
-  return "https://wa.me/" + (/^55\d{10,11}$/.test(phone) ? phone : "") + "?text=" + encodeURIComponent(message);
+function whatsappUrl() {
+  return "";
 }
 
 function bindWhatsapp(root) {
   (root || document).querySelectorAll("[data-whatsapp]").forEach(function (link) {
-    const id = link.dataset.whatsapp;
-    const moto = id && id !== "geral" ? getMotos().find(function (item) { return item.id === id; }) : null;
-    const url = whatsappUrl(moto);
-    if (!url) {
-      link.hidden = true;
-      link.removeAttribute("href");
-      return;
-    }
     link.hidden = false;
-    link.href = url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
+    link.href = "#";
+    link.removeAttribute("target");
+    link.removeAttribute("rel");
+    if (link.dataset.whatsappBound) return;
+    link.dataset.whatsappBound = "true";
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      showConfirmDialog({
+        title: "Contato demonstrativo",
+        message: "Nesta demonstração o contato é simulado. No projeto real, o botão direciona para o WhatsApp configurado pela empresa.",
+        confirmLabel: "Entendi",
+        info: true,
+        trigger: link,
+        onConfirm: function () {}
+      });
+    });
   });
 }
 
@@ -127,7 +128,7 @@ function renderBusinessInfo() {
   const links = document.querySelector("[data-business-links]");
   const business = CONFIG.business;
   const items = [];
-  if (whatsappUrl()) items.push('<a data-whatsapp="geral" href="#">' + escapeHtml(business.phoneDisplay) + "</a>");
+  if (business.phoneDisplay) items.push('<a data-whatsapp="geral" href="#">' + escapeHtml(business.phoneDisplay) + "</a>");
   if (business.instagram && business.instagramHandle) items.push('<a href="' + escapeHtml(business.instagram) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(business.instagramHandle) + "</a>");
   if (business.address) items.push("<span>" + escapeHtml(business.address) + "</span>");
   if (business.hours) items.push("<span>" + escapeHtml(business.hours) + "</span>");
@@ -174,14 +175,14 @@ function homeTemplate() {
     return '<button type="button" class="filter ' + (active ? "active" : "") + '" aria-pressed="' + active + '" data-brand="' + escapeHtml(brand) + '">' + escapeHtml(brand) + "</button>";
   }).join("");
   return [
-    '<section class="hero"><div class="hero-grid" aria-hidden="true"></div><picture class="hero-media"><img src="./assets/motos/moto-naked-azul.png" alt="Motocicleta demonstrativa em estúdio" fetchpriority="high" /></picture>',
-    '<div class="hero-content"><p class="section-kicker">Vértice Motors · demonstração oficial</p><h1>Seu estoque. <span>Pronto para vender.</span></h1><p>Uma experiência completa para apresentar motos, receber contatos e manter o catálogo atualizado com autonomia.</p>',
+    '<section class="hero"><div class="hero-grid" aria-hidden="true"></div><picture class="hero-media"><img src="./assets/motos/moto-naked-azul.webp" alt="Motocicleta demonstrativa em estúdio" fetchpriority="high" /></picture>',
+    '<div class="hero-content"><p class="section-kicker">Vértice Motors · demonstração oficial</p><h1>Seu estoque. <span>Pronto para vender.</span></h1><p>Uma experiência completa para apresentar motos, simular a jornada de contato e manter o catálogo atualizado neste dispositivo.</p>',
     '<div class="hero-actions"><a class="btn btn-primary" href="#motos">Explorar estoque</a><a class="btn btn-secondary" href="#admin">Ver painel administrativo</a></div><div class="hero-proof"><span>Catálogo responsivo</span><span>Gestão simplificada</span><span>Atendimento integrado</span></div></div></section>',
     '<section class="section page-shell" id="catalogo"><div class="catalog-header"><div><p class="section-kicker">Estoque demonstrativo</p><h2 class="section-title">Motos em destaque</h2></div><div class="catalog-tools">',
     '<label class="search-box"><span class="sr-only">Buscar por modelo</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg><input id="moto-search" type="search" placeholder="Buscar por modelo" value="', escapeHtml(searchTerm), '" /></label>',
     '<div class="filters" aria-label="Filtrar por marca">', filters, '</div></div></div><p class="demo-notice">Ambiente demonstrativo — veículos, valores, imagens e informações são fictícios.</p><div class="moto-grid" id="moto-grid"></div></section>',
     '<section class="section trust-section" id="como-funciona"><div class="page-shell"><p class="section-kicker">Produto pensado para revendas</p><h2 class="section-title">Tudo o que a equipe precisa para vender melhor.</h2><div class="trust-grid">',
-    '<div class="trust-item"><span class="trust-number">01</span><strong>Estoque organizado</strong><span>Busca, filtros e páginas completas para cada veículo.</span></div><div class="trust-item"><span class="trust-number">02</span><strong>Contato em contexto</strong><span>O cliente chama já informando qual moto despertou interesse.</span></div><div class="trust-item"><span class="trust-number">03</span><strong>Autonomia comercial</strong><span>Preço, fotos, dados e disponibilidade podem ser atualizados pela equipe.</span></div>',
+    '<div class="trust-item"><span class="trust-number">01</span><strong>Estoque organizado</strong><span>Busca, filtros e páginas completas para cada veículo.</span></div><div class="trust-item"><span class="trust-number">02</span><strong>Contato em contexto</strong><span>A demo mostra como o cliente inicia o contato com a moto já identificada.</span></div><div class="trust-item"><span class="trust-number">03</span><strong>Autonomia comercial</strong><span>Foto, preço, dados e disponibilidade podem ser atualizados neste dispositivo.</span></div>',
     '</div><a class="btn btn-ghost section-cta" href="#admin">Conhecer o painel demonstrativo</a></div></section>'
   ].join("");
 }
@@ -247,7 +248,7 @@ function renderDetail(id) {
     '<section class="detail-wrap page-shell"><a class="back-link" href="#motos">← Voltar para as motos</a><div class="detail-grid"><div class="detail-gallery"><div class="detail-main-image"><img data-fallback src="', escapeHtml(moto.image), '" alt="', escapeHtml(moto.brand), " ", escapeHtml(moto.model), '" /></div></div><div class="detail-info">',
     '<p class="section-kicker">', escapeHtml(moto.brand), ' · Disponível</p><h1>', escapeHtml(moto.model), '</h1><div class="detail-price"><span>Valor anunciado</span><strong>', money(moto.price), "</strong></div>",
     '<div class="spec-grid"><div class="spec"><span>Ano</span><strong>', escapeHtml(moto.year), '</strong></div><div class="spec"><span>Quilometragem</span><strong>', km(moto.km), '</strong></div><div class="spec"><span>Cilindrada</span><strong>', escapeHtml(moto.cc), ' cc</strong></div><div class="spec"><span>Versão</span><strong>', escapeHtml(moto.version || "—"), "</strong></div></div>",
-    '<p class="detail-description">', escapeHtml(moto.description), '</p><div class="interest-box"><a class="btn btn-primary" data-whatsapp="', escapeHtml(moto.id), '" href="#">Falar sobre esta moto</a></div></div></div></section>'
+    '<p class="detail-description">', escapeHtml(moto.description), '</p><div class="interest-box"><a class="btn btn-primary" data-whatsapp="', escapeHtml(moto.id), '" href="#">Simular contato pelo WhatsApp</a></div></div></div></section>'
   ].join("");
   bindImageFallbacks(main);
   bindWhatsapp(main);
@@ -255,20 +256,22 @@ function renderDetail(id) {
 
 function showConfirmDialog(options) {
   const root = document.querySelector("#dialog-root");
-  root.innerHTML = '<dialog class="confirm-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><div class="dialog-card"><h2 id="dialog-title">' + escapeHtml(options.title) + '</h2><p id="dialog-description">' + escapeHtml(options.message) + '</p><div class="dialog-actions"><button type="button" class="btn btn-ghost" data-dialog-cancel>Cancelar</button><button type="button" class="btn ' + (options.danger ? "btn-danger-solid" : "btn-primary") + '" data-dialog-confirm>' + escapeHtml(options.confirmLabel) + "</button></div></div></dialog>";
+  const cancelButton = options.info ? "" : '<button type="button" class="btn btn-ghost" data-dialog-cancel>Cancelar</button>';
+  root.innerHTML = '<dialog class="confirm-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><div class="dialog-card"><h2 id="dialog-title">' + escapeHtml(options.title) + '</h2><p id="dialog-description">' + escapeHtml(options.message) + '</p><div class="dialog-actions">' + cancelButton + '<button type="button" class="btn ' + (options.danger ? "btn-danger-solid" : "btn-primary") + '" data-dialog-confirm>' + escapeHtml(options.confirmLabel) + "</button></div></div></dialog>";
   const dialog = root.querySelector("dialog");
   const cancel = root.querySelector("[data-dialog-cancel]");
-  cancel.addEventListener("click", function () { dialog.close(); });
-  root.querySelector("[data-dialog-confirm]").addEventListener("click", function () {
+  const confirm = root.querySelector("[data-dialog-confirm]");
+  if (cancel) cancel.addEventListener("click", function () { dialog.close(); });
+  confirm.addEventListener("click", function () {
     dialog.close();
-    options.onConfirm();
+    if (options.onConfirm) options.onConfirm();
   });
   dialog.addEventListener("close", function () {
     root.innerHTML = "";
     if (options.trigger && document.contains(options.trigger)) options.trigger.focus();
   }, { once: true });
   dialog.showModal();
-  cancel.focus();
+  (cancel || confirm).focus();
 }
 
 function adminStats(motos) {
@@ -302,7 +305,7 @@ function renderAdmin() {
   }
   main.innerHTML = [
     '<section class="admin-shell"><a class="back-link" href="#home">← Ver catálogo público</a><div class="admin-top"><div><p class="section-kicker">GESTÃO DE ESTOQUE</p><h1>Gerenciar motos</h1></div><a class="btn btn-primary" href="#admin/novo">+ Adicionar moto</a></div>',
-    '<div class="admin-banner"><strong>Modo demo seguro</strong><span>Acesso demonstrativo. Em projetos reais, o painel é protegido e restrito à equipe da empresa.</span></div><div class="admin-capabilities"><span>Adicionar veículo</span><span>Editar preço e dados</span><span>Gerenciar imagens</span><span>Controlar status</span></div>', adminStats(motos),
+    '<div class="admin-banner"><strong>Modo demo seguro</strong><span>As alterações desta demonstração ficam salvas somente neste dispositivo. Em projetos reais, o painel é protegido e restrito à equipe da empresa.</span></div><div class="admin-capabilities"><span>Adicionar veículo</span><span>Editar preço e dados</span><span>Gerenciar foto</span><span>Controlar status</span></div>', adminStats(motos),
     '<div class="admin-filters"><label class="search-box"><span class="sr-only">Buscar por marca ou modelo</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg><input id="admin-search" type="search" placeholder="Buscar por marca ou modelo" value="', escapeHtml(adminSearch), '" /></label><div class="filters" aria-label="Filtrar estoque por status">', statusFilters, '</div></div><div class="admin-list">', list, '</div><div class="admin-toolbar"><button class="btn btn-ghost btn-small" type="button" id="reset-demo">Restaurar demonstração</button></div></section>'
   ].join("");
 

@@ -4,7 +4,7 @@ import { extname, join, normalize } from "node:path";
 
 const port = 4173;
 const root = join(process.cwd(), "dist");
-const types = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".png": "image/png" };
+const types = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".png": "image/png", ".webp": "image/webp" };
 
 createServer(async (request, response) => {
   const requested = decodeURIComponent(new URL(request.url, `http://${request.headers.host}`).pathname);
