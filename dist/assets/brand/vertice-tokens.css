@@ -1,0 +1,34 @@
+/* Tokens extraídos da landing page oficial da Vértice. */
+:root {
+  /* Cores oficiais da marca */
+  --vertice-blue: #2377ff;
+  --vertice-blue-light: #5aa8ff;
+  --vertice-navy: #050a14;
+  --vertice-white: #f7f9fc;
+
+  /* Cores de interface */
+  --vertice-bg-secondary: #09111f;
+  --vertice-surface: #0c1728;
+  --vertice-card: #0e1b2e;
+  --vertice-text-muted: #9daabd;
+  --vertice-line: rgba(255, 255, 255, .11);
+
+  /* Forma e profundidade */
+  --vertice-radius-small: 12px;
+  --vertice-radius: 20px;
+  --vertice-shadow: 0 24px 70px rgba(0, 0, 0, .28);
+  --vertice-ease: cubic-bezier(.2, .8, .2, 1);
+
+  /* Gradientes */
+  --vertice-gradient-button: linear-gradient(135deg, #2377ff, #1461db);
+  --vertice-gradient-hero: radial-gradient(circle at 78% 38%, rgba(35,119,255,.14), transparent 30%), linear-gradient(180deg, #050a14, #07101c);
+  --vertice-gradient-card: linear-gradient(145deg, rgba(255,255,255,.045), rgba(255,255,255,.015));
+  --vertice-gradient-glass: linear-gradient(145deg, rgba(255,255,255,.07), rgba(255,255,255,.018));
+}
+
+/* Família oficial */
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 400; font-display: swap; src: url("./tipografia/manrope-400.ttf") format("truetype"); }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 500; font-display: swap; src: url("./tipografia/manrope-500.ttf") format("truetype"); }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 600; font-display: swap; src: url("./tipografia/manrope-600.ttf") format("truetype"); }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 700; font-display: swap; src: url("./tipografia/manrope-700.ttf") format("truetype"); }
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 800; font-display: swap; src: url("./tipografia/manrope-800.ttf") format("truetype"); }

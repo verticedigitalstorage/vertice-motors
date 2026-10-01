@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+
+# Variáveis e segredos locais
+.env
+.env.*
+!.env.example
+
+# Logs e relatórios
+*.log
+npm-debug.log*
+coverage/
+
+# Arquivos temporários e do sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+.sites-runtime/
+.zip-verify-*/
+
+# Pacotes exportados
+*.zip

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050A14" />
+    <meta name="description" content="Vértice Motors: demonstração profissional de catálogo digital e gestão de estoque para revendas de motos." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Vértice Motors — Catálogo digital para revendas" />
+    <meta property="og:description" content="Conheça uma demonstração completa de catálogo de veículos e gestão de estoque para revendas." />
+    <title>Vértice Motors — Demo de catálogo digital</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Vértice Motors — início">
+        <img src="./assets/brand/vertice-logo-principal.svg" width="360" height="96" alt="Vértice" />
+        <span class="brand-product"><strong>Motors</strong><small>Demo comercial</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#home" data-nav="home">Início</a>
+        <a href="#motos" data-nav="motos">Estoque</a>
+        <a href="#como-funciona" data-nav="como-funciona">Recursos</a>
+      </nav>
+      <a class="header-whatsapp" href="#admin">Painel demo</a>
+    </header>
+
+    <main id="conteudo" tabindex="-1"></main>
+
+    <footer class="site-footer" id="contato">
+      <div class="footer-brand">
+        <img src="./assets/brand/vertice-logo-principal.svg" width="360" height="96" alt="Vértice" />
+        <div><strong>Vértice Motors</strong><span>Demonstração de catálogo digital para revendas</span></div>
+      </div>
+      <div class="footer-links" data-business-links></div>
+      <div class="footer-bottom">
+        <span>Tecnologia desenvolvida pela Vértice | Sites e Sistemas</span>
+        <a href="#admin">Explorar painel demonstrativo</a>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp" data-whatsapp="geral" href="#" aria-label="Simular contato pelo WhatsApp">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+        <path d="M20.2 11.8a8.2 8.2 0 0 1-12 7.3L4 20l.9-4.1a8.2 8.2 0 1 1 15.3-4.1Z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/>
+        <path d="M8.4 7.7c.2-.4.5-.4.8-.4h.4c.2 0 .4.1.5.4l.8 1.8c.1.3.1.5-.1.7l-.6.8c.8 1.6 1.8 2.7 3.5 3.5l.7-.8c.2-.2.5-.3.7-.2l1.9.9c.3.1.4.3.4.6 0 .5-.2 1.4-.8 1.8-.5.4-1.3.7-2.4.4-1.4-.4-3.3-1.2-5.1-3-1.4-1.4-2.4-3.2-2.7-4.5-.2-.9.1-1.5.4-2Z" fill="currentColor"/>
+      </svg>
+    </a>
+    <div class="toast" role="status" aria-live="polite" aria-atomic="true" aria-hidden="true" hidden>
+      <span data-toast-message></span>
+      <button type="button" data-toast-close aria-label="Fechar notificação" tabindex="-1">×</button>
+    </div>
+    <div id="dialog-root"></div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
